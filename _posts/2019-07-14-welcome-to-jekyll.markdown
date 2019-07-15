@@ -11,7 +11,7 @@ Google Summer of Code is a program sponsored by Google to introduce students to 
 
 I got selected as a Google Summer of Code student in SPDX (Software Product Data Exchange). The results came out on May 6 11:30 PM IST. 
 
-![](images\mail.png)
+![mail](https://user-images.githubusercontent.com/39915361/61207870-c69e6f80-a713-11e9-8bc0-e9bc2123e4f7.png)
 
 ## **How I get into GSoC**
 
