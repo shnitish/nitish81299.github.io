@@ -24,4 +24,5 @@ Now here are some few steps you should remember before participating in hacktobe
 
 Now you have made your first PR, next you can search issues on github with the tag `hactoberfest` or you can make contributions to you own project. You are only 3 pull requests away from getting you free t-shirt.
 
-![mail](images/Hacktoberfest.png)
+![mail](https://user-images.githubusercontent.com/39915361/66716172-7f924a00-ede8-11e9-97ad-52bc3f14743c.png)
+)
