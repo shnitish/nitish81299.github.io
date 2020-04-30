@@ -16,16 +16,32 @@
 title: Nitish Posts
 email: nitish81299@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  nitish81299
+
+show_excerpts: false
+# baseurl: /texture # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# github_username:  nitish81299
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: texture
+remote_theme: thelehhman/texture
 plugins:
   - jekyll-feed
+
+texture:
+  title: Nitish Sharma
+  tagline: Developer
+  date_format: "%b %-d, %Y"
+  style: black
+  showPicker: true
+  showNav: true
+
+  social_links:
+    github:  nitish81299
+    linkedIn: in/nitish-sharma-8dec1999
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
