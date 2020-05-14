@@ -1,56 +1,53 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+name:               "Nitish Sharma"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Nitish Posts
-email: nitish81299@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+# description:        "A minimalistic jekyll theme for humans"
 
-show_excerpts: false
-# baseurl: /texture # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# github_username:  nitish81299
+url:                ""
+author:             "nitish81299"
+email:              "nitishkumar81299@gmail.com"
+gravatar_hash:      "b811b7ec6dffb46dcb1f3c1d68a7242c"
+# twitter:            "jhondoe"
+# email:              "jhondoe@abc.com"
+# pinterest:          "jhondoe"
+github:             "nitish81299"
+linkedin:           "nitish-sharma-8dec1999"
+facebook:           "nitishsharma81299"
 
-# Build settings
-markdown: kramdown
-theme: texture
-remote_theme: thelehhman/texture
-plugins:
-  - jekyll-feed
+disqus_shortname:   "ShNitish"
 
-texture:
-  title: Nitish Sharma
-  tagline: Developer
-  date_format: "%b %-d, %Y"
-  style: black
-  showPicker: true
-  showNav: true
+background:         "background/image.jpg"
 
-  social_links:
-    github:  nitish81299
-    linkedIn: in/nitish-sharma-8dec1999
+paginate:           5
+paginate_path:      "/page:num/"
 
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
 
+markdown:           kramdown
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+nav:
+  - name:           "Home"
+    href:           "/"
+  - name:           "About"
+    href:           "/about"
+  
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
